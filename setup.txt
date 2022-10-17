@@ -1,0 +1,28 @@
+
+conda create -n enzpred37 python=3.7
+conda activate enzpred37
+echo y | conda install -c conda-forge brotlipy=0.7.0
+echo y | conda install -c conda-forge statsmodels=0.12.2
+echo y | conda install -c conda-forge rdkit
+echo y | conda install -c conda-forge yapf=0.29.0
+echo y | conda install -c conda-forge seaborn=0.10.1
+# echo y | conda install -c conda-forge mkl_fft=1.0.15
+echo y | conda install -c intel mkl_fft=1.0.15
+echo y | conda install -c jamespreed conda-minify=0.1.2
+echo y | conda install -c conda-forge pathos=0.2.7
+# echo y | conda install -c conda-forge conda-minify=0.1.2
+echo y | conda install -c conda-forge optuna=1.5.0
+echo y | conda install -c conda-forge pixman=0.38.0
+echo y | conda install -c pytorch torchvision=0.5.0
+echo y | conda install -c conda-forge ipykernel=5.3.4
+echo y | conda install -c conda-forge mkl_random=1.1.1
+echo y | conda install -c conda-forge python-levenshtein=0.12.0
+echo y | conda install -c conda-forge cython=0.29.20
+echo y | conda install -c conda-forge pytz=2020.1
+# echo y | conda install -c conda-forge pysocks=1.7.1
+echo y | conda install -c conda-forge pyqt=5.9.2
+echo y | conda install -c conda-forge scikit-learn=0.22.1
+pip install tape-proteins==0.4
+pip install fair-esm
+pip install git+https://github.com/samgoldman97/protein-sequence-embedding-iclr2019
+
