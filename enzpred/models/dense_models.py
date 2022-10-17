@@ -104,7 +104,7 @@ MODEL_ARGS.extend(distance.MODEL_ARGS)
 
 
 def get_model(model_type: str, **kwargs):
-    """Clas to hold the code to get a model"""
+    """Class to hold the code to get a model"""
     return {
         "ffn": FFNModel,
         "ffndot": FFNModelDotProd,

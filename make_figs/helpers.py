@@ -65,7 +65,7 @@ def rename_metrics_errors(
         "mcc",
     ],
 ):
-    """Rename the metrics that are task specific from each dataest to be uniform"""
+    """Rename the metrics that are task specific from each dataset to be uniform"""
     old_keys = set(df.keys())
     # Map the dataset specific key to the other key
     # e.g., new_name mapping converts auc_conversion_smiles : auc, etc.

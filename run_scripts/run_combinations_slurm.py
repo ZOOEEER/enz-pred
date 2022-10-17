@@ -1,6 +1,6 @@
 """ Pythonic launcher
 
-Use combinations config file to launch a bnch of trials
+Use combinations config file to launch a bunch of trials
 
 python run_scripts/run_combinations_slurm.py configs/scratch_file_combinations.json
 
